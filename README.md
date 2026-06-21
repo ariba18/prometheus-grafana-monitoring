@@ -50,7 +50,8 @@ Grafana :3000     ←  visualizes dashboards
 
 **Prerequisites:** Docker Desktop
 
-```docker compose up --build
+```
+docker compose up --build
 ```
 
 Then open:
