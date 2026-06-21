@@ -50,16 +50,13 @@ Grafana :3000     ←  visualizes dashboards
 
 **Prerequisites:** Docker Desktop
 
-```bash
-git clone https://github.com/ariba18/prometheus-grafana-monitoring.git
-cd prometheus-grafana-monitoring
-docker compose up --build
+```docker compose up --build
 ```
 
 Then open:
 - Flask API → http://localhost:5000
 - Prometheus → http://localhost:9090
-- Grafana → http://localhost:3000 (admin/admin)
+- Grafana → http://localhost:3000 
 
 ##  Screenshots
 
