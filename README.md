@@ -66,3 +66,6 @@ Then open:
 
 ### Grafana Dashboard — Live metrics visualization
 ![Grafana Dashboard](screenshots/grafana-dashboard.png)
+
+---
+## Author : **Ariba Khan**
