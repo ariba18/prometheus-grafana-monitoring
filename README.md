@@ -2,7 +2,7 @@
 
 A production-style monitoring stack built with Python Flask, Prometheus, and Grafana — fully containerized with Docker Compose.
 
-## 🏗️ Architecture
+##  Architecture
 
 User/Client (Postman)
 
@@ -18,7 +18,7 @@ Prometheus :9090  ←  scrapes every 15s
 
 Grafana :3000     ←  visualizes dashboards
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python / Flask** — REST API with custom Prometheus metrics
 - **Prometheus** — metrics collection and storage
@@ -36,7 +36,7 @@ Grafana :3000     ←  visualizes dashboards
 | GET | `/health` | Health check |
 | GET | `/metrics` | Prometheus metrics |
 
-## 📊 Custom Metrics
+##  Custom Metrics
 
 | Metric | Type | Description |
 |--------|------|-------------|
@@ -46,7 +46,7 @@ Grafana :3000     ←  visualizes dashboards
 | `task_api_active_requests` | Gauge | Requests currently being processed |
 | `task_api_task_count` | Gauge | Total tasks in the system (business metric) |
 
-## 🚀 How to Run
+##  How to Run
 
 **Prerequisites:** Docker Desktop
 
@@ -61,7 +61,7 @@ Then open:
 - Prometheus → http://localhost:9090
 - Grafana → http://localhost:3000 (admin/admin)
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Prometheus Targets — Flask API being scraped successfully
 ![Prometheus Targets](screenshots/prometheus-targets.png)
