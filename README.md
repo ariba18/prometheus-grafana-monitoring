@@ -25,7 +25,7 @@ Grafana :3000     ←  visualizes dashboards
 - **Grafana** — real-time dashboard visualization
 - **Docker / Docker Compose** — containerized multi-service deployment
 
-## 📡 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
